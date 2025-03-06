@@ -1,0 +1,19 @@
+name: liveness-detection
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - cudatoolkit=11.8
+  - opencv
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+    # If additional pip-only packages are needed, list them here.
+    # e.g.:
+    # - some_pip_only_package
+    []
